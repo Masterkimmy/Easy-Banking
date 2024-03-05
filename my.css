@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li::after{
+    height: 2px;
+    width: 0%;
+    content: '';
+    background: green;
+    display: block;
+    transition: 1s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+}
+.bu{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+}
+.sec2{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 20px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10%;
+}
+
+.next button{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+}
+.next h1{
+    font-size: 40px;
+    width: 20vw;
+}
+.next p{
+    color:   hsl(233, 8%, 62%);
+    width: 26vw;
+    line-height: 20px;
+}
+.back img{
+    height: 100vh;
+    width: 60%;
+    margin-left: 25%;
+}
+.back{
+    background: url(./images/bg-intro-desktop.svg);
+    width: 70%;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -220px;
+    height: 82vh;
+    bottom: 50px;
+    background-position: left;
+    background-size: cover;
+    top: 0;
+}
+.why{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 165px;
+}
+.why h1{
+    font-size: 35px;
+}
+.why p{
+    width: 38vw;
+    color:  hsl(233, 8%, 62%);
+}
+.online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.online img{
+    height: 5vh;
+    align-items: center;
+}
+.one p{
+    width: 16vw;
+    line-height: 20px;
+    color:  hsl(233, 8%, 62%);
+}
+.fast p{
+    width: 16.5vw;
+    line-height: 20px;
+    color:  hsl(233, 8%, 62%);
+}
+.api p{
+    width: 20vw;
+    line-height: 20px;
+    color:  hsl(233, 8%, 62%);
+}
+.one,.api{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.oil{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sec3{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ren{
+    height: 30vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.res,.pln,.fet{
+    height: 27vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.ren img{
+    height: 30vh;
+}
+.four h3{
+    width: 15vw;
+}
+.confetti h3{
+    width: 13vw;
+}
+.currency p,.restaurant p,.plane p,.confetti p{
+    width: 17vw;
+    color:  hsl(233, 8%, 62%);
+    cursor: pointer;
+    line-height: 20px;
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.currency,.restaurant,.plane,.confetti{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 15px;
+}
+.curry{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 20px;
+}
+.sec4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.sec4 h1{
+    padding-left: 150px;
+    font-size: 35px;
+}
+.four h3:hover{
+    color:   hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+.foot{
+    background-color:  hsl(232, 34%, 36%);
+    display:flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 320px;
+    width: 100%;
+
+}
+.footer{
+    display: flex;
+    gap: 130px;
+}
+.footeer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about,.car{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+.req{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+}
+.icomm{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.req button{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    width: 100%;
+    cursor: pointer;
+}
+.req p{
+    color:  hsl(233, 8%, 62%);  
+}
+.about p:hover, .car p:hover{
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:950px)
+{
+  ul{
+    display: none;
+  }
+  .div1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sec2{
+    padding: 0;
+    display: flex;
+    height: 75vh;
+    flex-direction: column-reverse;
+    margin-bottom: 15%;
+  }
+  .back img{
+    width: 100%;
+    height: 70vh;
+    margin-left: 0;
+    position: absolute;
+    bottom: 220px;
+  }
+  .back{
+    background: none;
+    position: none;
+    right: 0;
+    top: 0;
+  }
+  .next{
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .next h1{
+    width: 40vh;
+  }
+  .next p{
+    width: 35vh;
+  }
+  .next button{
+    width: 50%;
+  }
+  .online{
+    flex-direction: column;
+  }
+  .one p{
+    width: 100%;
+  }
+  .why p{
+    width: 100%;
+  }
+  .screen{
+    background: url(./images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    background-size: contain;
+  }
+  .why{
+    padding-left: 20px;
+  }
+  .oil{
+    padding-left: 20px;
+  }
+  .fast p, .api p{
+    width: 100%;
+  }
+  .four{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .sec4 h1{
+    padding-left: 20px;
+  }
+.sec4 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.oil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why p{
+    width: 80vw;
+    text-align: center;
+}
+.why h1{
+    width: 50vw;
+}
+.one p, .fast p, .api p{
+    width: 80vw;
+    text-align: center;
+}
+.why,.one,.fast,.api{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currency p,.restaurant p,.plane p,.confetti p{
+    width: 70vw;
+}
+.currency h3,.restaurant h3,.plane h3,.confetti h3{
+    width: 70vw;
+}
+.restaurant h3{
+    width: 70vw;
+}
+.about,.car{
+    flex-direction: column;
+    text-align: center;
+}
+.foot{
+    flex-direction: column;
+    gap: 35px;  
+}
+.footer{
+    flex-direction: column;
+    gap: 20px;
+}
+.footeer{
+    display: flex;
+}
+.req{
+    display: flex;
+    flex-direction: column; 
+    gap: 25px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+}
