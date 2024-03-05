@@ -257,6 +257,7 @@ nav ul li:hover::after{
     flex-direction: column;
     gap: 15px;
     cursor: pointer;
+    color: whiteg;
 }
 .req{
     display: flex;
@@ -341,6 +342,9 @@ nav ul li:hover::after{
   }
   .why p{
     width: 100%;
+  }
+  .why{
+    text-align: center;
   }
   .screen{
     background: url(./images/bg-intro-mobile.svg);
