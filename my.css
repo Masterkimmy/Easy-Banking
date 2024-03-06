@@ -68,9 +68,9 @@ nav ul li:hover::after{
 }
 
 .next button{
-    width: 30%;
-    padding: 10px;
-    border-radius: 10px;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 50px;
     border: none;
     color: white;
     background: linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
@@ -106,7 +106,7 @@ nav ul li:hover::after{
     justify-content: center;
     gap: 10px;
     flex-direction: column;
-    padding-left: 165px;
+    padding-left: 140px;
 }
 .why h1{
     font-size: 35px;
@@ -114,12 +114,13 @@ nav ul li:hover::after{
 .why p{
     width: 38vw;
     color:  hsl(233, 8%, 62%);
+    line-height: 20px;
 }
 .online{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 25px;
+    gap: 15px;
+    margin-right: 7%;
 }
 .online img{
     height: 5vh;
@@ -140,36 +141,37 @@ nav ul li:hover::after{
     line-height: 20px;
     color:  hsl(233, 8%, 62%);
 }
-.one,.api{
+.one,.api,.fast{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 .oil{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .fast{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 .sec3{
     display: flex;
     background-color: whitesmoke;
     justify-content: center;
     flex-direction: column;
-    gap: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: 100%;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .ren{
-    height: 30vh;
+    height: 27vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -226,7 +228,7 @@ nav ul li:hover::after{
     padding-bottom: 60px;
 }
 .sec4 h1{
-    padding-left: 150px;
+    padding-left: 133px;
     font-size: 35px;
 }
 .four h3:hover{
@@ -257,7 +259,7 @@ nav ul li:hover::after{
     flex-direction: column;
     gap: 15px;
     cursor: pointer;
-    color: whiteg;
+    color: white;
 }
 .req{
     display: flex;
@@ -301,9 +303,9 @@ nav ul li:hover::after{
   .sec2{
     padding: 0;
     display: flex;
-    height: 75vh;
+    height: 100vh;
     flex-direction: column-reverse;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
   }
   .back img{
     width: 100%;
@@ -326,22 +328,27 @@ nav ul li:hover::after{
     text-align: center;
   }
   .next h1{
-    width: 40vh;
+    width: 50vh;
   }
   .next p{
-    width: 35vh;
+    width: 55vh;
   }
   .next button{
     width: 50%;
+  }
+  .sec3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .online{
     flex-direction: column;
   }
   .one p{
-    width: 100%;
+    /* width: 100%; */
   }
   .why p{
-    width: 100%;
+    /* width: 100%; */
   }
   .why{
     text-align: center;
